@@ -31,6 +31,7 @@ public class Test {
         ListNode resHead = null;
         ListNode end = null;
         while (true) {
+
             Arrays.sort(lists, (o2, o1) -> {
                 if(o1 == null) {
                     if(o2 == null) {
